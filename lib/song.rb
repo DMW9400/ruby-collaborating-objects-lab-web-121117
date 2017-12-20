@@ -23,8 +23,8 @@ class Song
     song_name = return_file[1]
     # new_song = Song.new(song_name)
     new_song = self.new(song_name)
-    # new_song.artist = Artist.find_or_create_by_name(artist_name)
-    new_song.artist_name = Artist.new(artist)
+    new_song.artist_name = Artist.new(artist_name)
+    # binding.pry
     # new_song.artist.add_song(new_song)
     new_song
 
